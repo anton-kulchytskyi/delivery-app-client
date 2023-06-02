@@ -12,3 +12,10 @@ interface Store {
   name: string;
   foods: Food[];
 }
+
+interface IFormInput {
+  name: string;
+  email: string;
+  phone: number;
+  address: string;
+}
